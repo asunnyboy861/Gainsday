@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0772FFF2FF46CA574F9CBC78 /* CoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7573D76224B743E0F4EF39DA /* CoachView.swift */; };
+		0DDDBD85EE15FB43E6637BAB /* ExerciseDBSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD451F2346704A138685E9 /* ExerciseDBSeeder.swift */; };
+		0E867C5B6FBDA18C29766D47 /* QuotaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832E6E07A4D5E3CB29E8C6B /* QuotaStore.swift */; };
+		10E518AEB6647A1B621C712E /* WatchSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F5CD0CDCA0917ED76A50E8 /* WatchSyncService.swift */; };
+		143C117A35F90D5AFB7EE022 /* AppleIntelligenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C669548AD6409C18E7AA9BC /* AppleIntelligenceService.swift */; };
+		170C60A6A6C14233AF33E108 /* ContactSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79312653DA06AD5339828CC /* ContactSupportView.swift */; };
+		179A882DA09663076D3781B6 /* GainsdayWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 47978FBF7CCF8C6E2A5645EF /* GainsdayWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		293D702B8F92867AF66FF48E /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D5AC7ABFB7ADB7694F7513 /* RootTabView.swift */; };
+		2C09B117C154DF9523AEBDEC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11D122B09FBC1A5A8453F2D /* Models.swift */; };
+		2C8DF605EB133081B3AE1635 /* PhotoTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBF4F2FD5FFEB8F73E5EEB /* PhotoTimelineView.swift */; };
+		2DBA64CCE8C30A0B3E07E94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8C2BDACE698AA778E4E9F7 /* Assets.xcassets */; };
+		312A10205FEA12EFD2B384FD /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788A4121E2A9E448EA68FFF5 /* HealthKitService.swift */; };
+		344E2E2D852629CA0585D995 /* GainsdayWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBDEFCF3036DDE490F08B50 /* GainsdayWatchApp.swift */; };
+		439B7F59460F7A6F4EB2453E /* AIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024FCE82670C0C32CDEF5345 /* AIRouter.swift */; };
+		4D17D074D95832B01BE5CF1D /* ExercisePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBE0D7F709B414141E078F /* ExercisePicker.swift */; };
+		4D28DDCFE40F8E4420905487 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F088A98DBA33EF939B89A1C7 /* OnboardingView.swift */; };
+		5172640B698C63619A4E7B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C6EE0D23F987D43A88002B /* Assets.xcassets */; };
+		574642B08D009F947AE1D356 /* AISettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E4287A8D293B9A0831A76 /* AISettingsView.swift */; };
+		65647EB069E7A2684FFAD013 /* GLMSecret.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30384AFA5A4234CAEDA238BE /* GLMSecret.txt */; };
+		713AC7F6E33B36C12220C524 /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC256912DA0D9225618E57E0 /* TodayViewModel.swift */; };
+		731D75C3D214ED04FD72C3CB /* GainsdayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A7DE3E16E1B537149C941 /* GainsdayApp.swift */; };
+		79BEDABDC8E505128793D09F /* AIProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B3A87316E48D67D7B1DF9D /* AIProfileManager.swift */; };
+		7AEB321377E4CDCC79CB4D32 /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCE3A7AAF0F41A7E8D7000C /* DayKey.swift */; };
+		7D9C03C2294862377A491C9B /* FormCheckPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A6A1B7A474880D139F64 /* FormCheckPreprocessor.swift */; };
+		8743C44F766A3F3AD0E6E569 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E761AE09692709F5772017 /* CSVExporter.swift */; };
+		8BB60F8684A704DD85917714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D78BF28D1CA3CF5DF61A20D /* Assets.xcassets */; };
+		8BF0212FB394A09E45228691 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 68B86E29FFCFF7FB642CD9F6 /* PrivacyInfo.xcprivacy */; };
+		8CA67C8AA5439E951A4F4531 /* GainsdayWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5F97FEA27A1B59E43A1F8F16 /* GainsdayWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9070649383E85002D25D544C /* AIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470AC43B668D0FECCDAE09D /* AIServiceProtocol.swift */; };
+		9187D121BF6CF65F74B516D4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E1B2C3D01623E94FD68117 /* Theme.swift */; };
+		9A76490080C3C26ECB4E5A73 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269ED2E1FC2A9C5FFFAB1542 /* PaywallView.swift */; };
+		9A97B172E3EF0122F1DEF255 /* SnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90D6BDF7BE219F94678A55 /* SnapshotStore.swift */; };
+		A20608B098A2968CBC9AA87A /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3CEE3E3AC0FEA5006BF947 /* PlansView.swift */; };
+		A6FB2D580F1FCF547F53BA9C /* OverloadEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97E420C83D61E3551D0E109 /* OverloadEngine.swift */; };
+		A9142CB955B2ED3DA3ED8A3B /* GainsdayWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E9CC54F6AF8B03304D0D1 /* GainsdayWidgets.swift */; };
+		AAC2321E58F8CA8A6B01FF00 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F7A386CF76CB3BC5339983 /* SettingsView.swift */; };
+		B1020F39123145182C318ECF /* HealthKitInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0FDA4B87BC101D3209CE4D /* HealthKitInfoView.swift */; };
+		B36FC8C68FDFE17A5FFA6B7A /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9B88854255F4D38151E1 /* TodayView.swift */; };
+		B9DE4FC669653C99BE1A4239 /* ExerciseLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5C62A99A37DF38D3DD2A29 /* ExerciseLibraryView.swift */; };
+		C1E7F9D3A653D65C833318E8 /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 563529F44E81EF41EE765360 /* exercises.json */; };
+		DAE2EC82A87086C2432C0E20 /* EmbeddedAIBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958D41C1CAF49600F1E320AB /* EmbeddedAIBackend.swift */; };
+		E1158F6EF822FA6F53550B0B /* CloudAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EB9E14944E218534C3D57 /* CloudAIService.swift */; };
+		E19E5377433BFFDEC54C364D /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0FEE942EB49369E40909C0 /* PurchaseManager.swift */; };
+		EC58A45B0BE636F2949FAC68 /* ProgressHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FCA0D8FDCBCB302383DA9 /* ProgressHomeView.swift */; };
+		F0103FF5D77A51623105ABD6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 21E6A70BC4FEC4C4F5A5B742 /* PrivacyInfo.xcprivacy */; };
+		F10B8AD2E965E439E6451791 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D24C254EE45701FF703577 /* HistoryView.swift */; };
+		F118D9E0147736147E2D9413 /* WeeklyRecapScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E682C6CB014157F48CEDB7 /* WeeklyRecapScheduler.swift */; };
+		F46084CC0993FBC7BE2753BD /* PhotoAligner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEFF2999EE440A2D49A5270 /* PhotoAligner.swift */; };
+		F516A04A8C9C9FE2049ED5E7 /* PlateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC07073713D90AD6A611C6 /* PlateCalculator.swift */; };
+		FC8E619BCCA8B08BD37E5BC6 /* AIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6574755DA6E23489F3A2FCB /* AIConfiguration.swift */; };
+		FDA7EC5AAE10657A52D7EEF5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 278632089EE096B4965E1FD1 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1861930CF71BE6B0072A6741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C301D04F142434333A3E01BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3D52CF9F5C7F99EE319141;
+			remoteInfo = GainsdayWatch;
+		};
+		87D75F33016BC74E18DB2B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C301D04F142434333A3E01BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D632078D4A7CC2508B7DD60;
+			remoteInfo = GainsdayWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B05DB12A9BE82AEF11B9F0B9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8CA67C8AA5439E951A4F4531 /* GainsdayWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C9A687093C5DDED2FC373B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				179A882DA09663076D3781B6 /* GainsdayWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		024FCE82670C0C32CDEF5345 /* AIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRouter.swift; sourceTree = "<group>"; };
+		0A9EB9E14944E218534C3D57 /* CloudAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAIService.swift; sourceTree = "<group>"; };
+		0C5C62A99A37DF38D3DD2A29 /* ExerciseLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLibraryView.swift; sourceTree = "<group>"; };
+		0C8C2BDACE698AA778E4E9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D78BF28D1CA3CF5DF61A20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19F5CD0CDCA0917ED76A50E8 /* WatchSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSyncService.swift; sourceTree = "<group>"; };
+		21E6A70BC4FEC4C4F5A5B742 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		269ED2E1FC2A9C5FFFAB1542 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		278632089EE096B4965E1FD1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		30384AFA5A4234CAEDA238BE /* GLMSecret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLMSecret.txt; sourceTree = "<group>"; };
+		33D5B9AD35B055B02BF26A18 /* GainsdayWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GainsdayWidgets.entitlements; sourceTree = "<group>"; };
+		3832E6E07A4D5E3CB29E8C6B /* QuotaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaStore.swift; sourceTree = "<group>"; };
+		44D5AC7ABFB7ADB7694F7513 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		47978FBF7CCF8C6E2A5645EF /* GainsdayWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GainsdayWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFC07073713D90AD6A611C6 /* PlateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateCalculator.swift; sourceTree = "<group>"; };
+		542A7DE3E16E1B537149C941 /* GainsdayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainsdayApp.swift; sourceTree = "<group>"; };
+		563529F44E81EF41EE765360 /* exercises.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
+		59368D591CB0F17DC8D6B9E7 /* Gainsday.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Gainsday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FC9B88854255F4D38151E1 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		5BBDEFCF3036DDE490F08B50 /* GainsdayWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainsdayWatchApp.swift; sourceTree = "<group>"; };
+		5F97FEA27A1B59E43A1F8F16 /* GainsdayWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = GainsdayWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B86E29FFCFF7FB642CD9F6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		69D24C254EE45701FF703577 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		6C1E9CC54F6AF8B03304D0D1 /* GainsdayWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainsdayWidgets.swift; sourceTree = "<group>"; };
+		72E1B2C3D01623E94FD68117 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		7573D76224B743E0F4EF39DA /* CoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachView.swift; sourceTree = "<group>"; };
+		788A4121E2A9E448EA68FFF5 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		7C669548AD6409C18E7AA9BC /* AppleIntelligenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIntelligenceService.swift; sourceTree = "<group>"; };
+		7D0FDA4B87BC101D3209CE4D /* HealthKitInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitInfoView.swift; sourceTree = "<group>"; };
+		7FEFF2999EE440A2D49A5270 /* PhotoAligner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAligner.swift; sourceTree = "<group>"; };
+		82C6EE0D23F987D43A88002B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8881B58BF4F02B6D8913F308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8C8E4287A8D293B9A0831A76 /* AISettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsView.swift; sourceTree = "<group>"; };
+		92B3A87316E48D67D7B1DF9D /* AIProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProfileManager.swift; sourceTree = "<group>"; };
+		958D41C1CAF49600F1E320AB /* EmbeddedAIBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedAIBackend.swift; sourceTree = "<group>"; };
+		9AFBE0D7F709B414141E078F /* ExercisePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePicker.swift; sourceTree = "<group>"; };
+		9CF30537753E51D4AEF42811 /* Gainsday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gainsday.entitlements; sourceTree = "<group>"; };
+		A11D122B09FBC1A5A8453F2D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A470AC43B668D0FECCDAE09D /* AIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIServiceProtocol.swift; sourceTree = "<group>"; };
+		A79312653DA06AD5339828CC /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupportView.swift; sourceTree = "<group>"; };
+		A8E682C6CB014157F48CEDB7 /* WeeklyRecapScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyRecapScheduler.swift; sourceTree = "<group>"; };
+		B1F7A386CF76CB3BC5339983 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B97E420C83D61E3551D0E109 /* OverloadEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverloadEngine.swift; sourceTree = "<group>"; };
+		BC256912DA0D9225618E57E0 /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		BF9FCA0D8FDCBCB302383DA9 /* ProgressHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHomeView.swift; sourceTree = "<group>"; };
+		CA0FEE942EB49369E40909C0 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		CCF1A6A1B7A474880D139F64 /* FormCheckPreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCheckPreprocessor.swift; sourceTree = "<group>"; };
+		D0E761AE09692709F5772017 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		DDCE3A7AAF0F41A7E8D7000C /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		E5D4BE58CAE46CB9BC490204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9BBF4F2FD5FFEB8F73E5EEB /* PhotoTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTimelineView.swift; sourceTree = "<group>"; };
+		EABD451F2346704A138685E9 /* ExerciseDBSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDBSeeder.swift; sourceTree = "<group>"; };
+		F088A98DBA33EF939B89A1C7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F6574755DA6E23489F3A2FCB /* AIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfiguration.swift; sourceTree = "<group>"; };
+		FB3CEE3E3AC0FEA5006BF947 /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
+		FF90D6BDF7BE219F94678A55 /* SnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01901CF05B3877A9800DABEA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F088A98DBA33EF939B89A1C7 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		08DD58BBDBBD759806829A20 /* GainsdayWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				0C8C2BDACE698AA778E4E9F7 /* Assets.xcassets */,
+				33D5B9AD35B055B02BF26A18 /* GainsdayWidgets.entitlements */,
+				6C1E9CC54F6AF8B03304D0D1 /* GainsdayWidgets.swift */,
+				8881B58BF4F02B6D8913F308 /* Info.plist */,
+				278632089EE096B4965E1FD1 /* PrivacyInfo.xcprivacy */,
+			);
+			path = GainsdayWidgets;
+			sourceTree = "<group>";
+		};
+		0BCC586F11E75BBEE2438799 /* GainsdayWatch */ = {
+			isa = PBXGroup;
+			children = (
+				0D78BF28D1CA3CF5DF61A20D /* Assets.xcassets */,
+				5BBDEFCF3036DDE490F08B50 /* GainsdayWatchApp.swift */,
+				E5D4BE58CAE46CB9BC490204 /* Info.plist */,
+				68B86E29FFCFF7FB642CD9F6 /* PrivacyInfo.xcprivacy */,
+			);
+			path = GainsdayWatch;
+			sourceTree = "<group>";
+		};
+		16EDA503A67503AC3AB83D57 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D0E761AE09692709F5772017 /* CSVExporter.swift */,
+				EABD451F2346704A138685E9 /* ExerciseDBSeeder.swift */,
+				CCF1A6A1B7A474880D139F64 /* FormCheckPreprocessor.swift */,
+				788A4121E2A9E448EA68FFF5 /* HealthKitService.swift */,
+				B97E420C83D61E3551D0E109 /* OverloadEngine.swift */,
+				7FEFF2999EE440A2D49A5270 /* PhotoAligner.swift */,
+				4BFC07073713D90AD6A611C6 /* PlateCalculator.swift */,
+				3832E6E07A4D5E3CB29E8C6B /* QuotaStore.swift */,
+				FF90D6BDF7BE219F94678A55 /* SnapshotStore.swift */,
+				19F5CD0CDCA0917ED76A50E8 /* WatchSyncService.swift */,
+				A8E682C6CB014157F48CEDB7 /* WeeklyRecapScheduler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D2794DB370A9509FCD5472E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				542A7DE3E16E1B537149C941 /* GainsdayApp.swift */,
+				44D5AC7ABFB7ADB7694F7513 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		216A5BBA12D22DD860B95729 /* Coach */ = {
+			isa = PBXGroup;
+			children = (
+				7573D76224B743E0F4EF39DA /* CoachView.swift */,
+			);
+			path = Coach;
+			sourceTree = "<group>";
+		};
+		22BC81E3B15E08A2B7BBFEF0 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				F6574755DA6E23489F3A2FCB /* AIConfiguration.swift */,
+				92B3A87316E48D67D7B1DF9D /* AIProfileManager.swift */,
+				024FCE82670C0C32CDEF5345 /* AIRouter.swift */,
+				A470AC43B668D0FECCDAE09D /* AIServiceProtocol.swift */,
+				7C669548AD6409C18E7AA9BC /* AppleIntelligenceService.swift */,
+				0A9EB9E14944E218534C3D57 /* CloudAIService.swift */,
+				958D41C1CAF49600F1E320AB /* EmbeddedAIBackend.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		2F2665AE5CF474D66FFFFD25 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0C5C62A99A37DF38D3DD2A29 /* ExerciseLibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		303B0FC6CA8564E70300BE29 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				269ED2E1FC2A9C5FFFAB1542 /* PaywallView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		40084C0408F9CDA9C964B0A2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E4287A8D293B9A0831A76 /* AISettingsView.swift */,
+				7D0FDA4B87BC101D3209CE4D /* HealthKitInfoView.swift */,
+				B1F7A386CF76CB3BC5339983 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		40FDF25ED08EF55CE0B5BF6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59368D591CB0F17DC8D6B9E7 /* Gainsday.app */,
+				47978FBF7CCF8C6E2A5645EF /* GainsdayWatch.app */,
+				5F97FEA27A1B59E43A1F8F16 /* GainsdayWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F84AFC73386E3C86DF97AE8 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				CA0FEE942EB49369E40909C0 /* PurchaseManager.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		56AEEBE627DE9FFD8CED0196 = {
+			isa = PBXGroup;
+			children = (
+				9C6A1BE5D464C140F67773E9 /* Gainsday */,
+				0BCC586F11E75BBEE2438799 /* GainsdayWatch */,
+				08DD58BBDBBD759806829A20 /* GainsdayWidgets */,
+				40FDF25ED08EF55CE0B5BF6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C919D519E3DF31E03FC409 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				72E1B2C3D01623E94FD68117 /* Theme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		91179016F3AEB6C9AE4DF061 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				E9BBF4F2FD5FFEB8F73E5EEB /* PhotoTimelineView.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		9C6A1BE5D464C140F67773E9 /* Gainsday */ = {
+			isa = PBXGroup;
+			children = (
+				82C6EE0D23F987D43A88002B /* Assets.xcassets */,
+				9CF30537753E51D4AEF42811 /* Gainsday.entitlements */,
+				30384AFA5A4234CAEDA238BE /* GLMSecret.txt */,
+				21E6A70BC4FEC4C4F5A5B742 /* PrivacyInfo.xcprivacy */,
+				22BC81E3B15E08A2B7BBFEF0 /* AI */,
+				1D2794DB370A9509FCD5472E /* App */,
+				A32B9B6B58FFB00CC41B12AF /* Models */,
+				D00C11617EFA23417C2AFF78 /* Resources */,
+				16EDA503A67503AC3AB83D57 /* Services */,
+				4F84AFC73386E3C86DF97AE8 /* Store */,
+				B7DBC7A4317305964BA51C06 /* Views */,
+			);
+			path = Gainsday;
+			sourceTree = "<group>";
+		};
+		A32B9B6B58FFB00CC41B12AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDCE3A7AAF0F41A7E8D7000C /* DayKey.swift */,
+				A11D122B09FBC1A5A8453F2D /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF3016CAD5A1F86543652C92 /* Plans */ = {
+			isa = PBXGroup;
+			children = (
+				FB3CEE3E3AC0FEA5006BF947 /* PlansView.swift */,
+			);
+			path = Plans;
+			sourceTree = "<group>";
+		};
+		B7DBC7A4317305964BA51C06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				216A5BBA12D22DD860B95729 /* Coach */,
+				BF060CBCAF0258576E811201 /* History */,
+				2F2665AE5CF474D66FFFFD25 /* Library */,
+				01901CF05B3877A9800DABEA /* Onboarding */,
+				91179016F3AEB6C9AE4DF061 /* Photos */,
+				AF3016CAD5A1F86543652C92 /* Plans */,
+				ED442810C103539F1F4CC31E /* Progress */,
+				40084C0408F9CDA9C964B0A2 /* Settings */,
+				78C919D519E3DF31E03FC409 /* Shared */,
+				303B0FC6CA8564E70300BE29 /* Store */,
+				F24B294633ABD4959DF5C8DB /* Support */,
+				DE3FCB5F0F4B37FD258A8176 /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF060CBCAF0258576E811201 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				69D24C254EE45701FF703577 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		D00C11617EFA23417C2AFF78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				563529F44E81EF41EE765360 /* exercises.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE3FCB5F0F4B37FD258A8176 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				9AFBE0D7F709B414141E078F /* ExercisePicker.swift */,
+				59FC9B88854255F4D38151E1 /* TodayView.swift */,
+				BC256912DA0D9225618E57E0 /* TodayViewModel.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		ED442810C103539F1F4CC31E /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FCA0D8FDCBCB302383DA9 /* ProgressHomeView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		F24B294633ABD4959DF5C8DB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A79312653DA06AD5339828CC /* ContactSupportView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D632078D4A7CC2508B7DD60 /* GainsdayWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEDECD3B0ECE00DFC71D42B /* Build configuration list for PBXNativeTarget "GainsdayWidgets" */;
+			buildPhases = (
+				802A5B2D65F09A86DB10FDED /* Sources */,
+				D59BD1F58334DF0884120703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GainsdayWidgets;
+			packageProductDependencies = (
+			);
+			productName = GainsdayWidgets;
+			productReference = 5F97FEA27A1B59E43A1F8F16 /* GainsdayWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B824A53DD811BC23105C9480 /* Gainsday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2308B3F408E8D52A0A233F91 /* Build configuration list for PBXNativeTarget "Gainsday" */;
+			buildPhases = (
+				97B6DAD909235B75B83C3A02 /* Sources */,
+				2AC0D27E907347FCA04D4AE8 /* Resources */,
+				B05DB12A9BE82AEF11B9F0B9 /* Embed Foundation Extensions */,
+				D2C9A687093C5DDED2FC373B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31C923237AE056327456E25 /* PBXTargetDependency */,
+				DBA8F30ED3B73B50E0E9877E /* PBXTargetDependency */,
+			);
+			name = Gainsday;
+			packageProductDependencies = (
+			);
+			productName = Gainsday;
+			productReference = 59368D591CB0F17DC8D6B9E7 /* Gainsday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3D52CF9F5C7F99EE319141 /* GainsdayWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4498292339A8B3660217EF /* Build configuration list for PBXNativeTarget "GainsdayWatch" */;
+			buildPhases = (
+				2CF56D0AAE78F4F0B42CED3F /* Sources */,
+				64660F2DC4BB167E6CEA8A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GainsdayWatch;
+			packageProductDependencies = (
+			);
+			productName = GainsdayWatch;
+			productReference = 47978FBF7CCF8C6E2A5645EF /* GainsdayWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C301D04F142434333A3E01BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9D632078D4A7CC2508B7DD60 = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+					B824A53DD811BC23105C9480 = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+					CA3D52CF9F5C7F99EE319141 = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D2E2F79EF966B89D42CACFD /* Build configuration list for PBXProject "Gainsday" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 56AEEBE627DE9FFD8CED0196;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B824A53DD811BC23105C9480 /* Gainsday */,
+				CA3D52CF9F5C7F99EE319141 /* GainsdayWatch */,
+				9D632078D4A7CC2508B7DD60 /* GainsdayWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC0D27E907347FCA04D4AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5172640B698C63619A4E7B35 /* Assets.xcassets in Resources */,
+				65647EB069E7A2684FFAD013 /* GLMSecret.txt in Resources */,
+				F0103FF5D77A51623105ABD6 /* PrivacyInfo.xcprivacy in Resources */,
+				C1E7F9D3A653D65C833318E8 /* exercises.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64660F2DC4BB167E6CEA8A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB60F8684A704DD85917714 /* Assets.xcassets in Resources */,
+				8BF0212FB394A09E45228691 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59BD1F58334DF0884120703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA64CCE8C30A0B3E07E94C /* Assets.xcassets in Resources */,
+				FDA7EC5AAE10657A52D7EEF5 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF56D0AAE78F4F0B42CED3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344E2E2D852629CA0585D995 /* GainsdayWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802A5B2D65F09A86DB10FDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9142CB955B2ED3DA3ED8A3B /* GainsdayWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B6DAD909235B75B83C3A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8E619BCCA8B08BD37E5BC6 /* AIConfiguration.swift in Sources */,
+				79BEDABDC8E505128793D09F /* AIProfileManager.swift in Sources */,
+				439B7F59460F7A6F4EB2453E /* AIRouter.swift in Sources */,
+				9070649383E85002D25D544C /* AIServiceProtocol.swift in Sources */,
+				574642B08D009F947AE1D356 /* AISettingsView.swift in Sources */,
+				143C117A35F90D5AFB7EE022 /* AppleIntelligenceService.swift in Sources */,
+				8743C44F766A3F3AD0E6E569 /* CSVExporter.swift in Sources */,
+				E1158F6EF822FA6F53550B0B /* CloudAIService.swift in Sources */,
+				0772FFF2FF46CA574F9CBC78 /* CoachView.swift in Sources */,
+				170C60A6A6C14233AF33E108 /* ContactSupportView.swift in Sources */,
+				7AEB321377E4CDCC79CB4D32 /* DayKey.swift in Sources */,
+				DAE2EC82A87086C2432C0E20 /* EmbeddedAIBackend.swift in Sources */,
+				0DDDBD85EE15FB43E6637BAB /* ExerciseDBSeeder.swift in Sources */,
+				B9DE4FC669653C99BE1A4239 /* ExerciseLibraryView.swift in Sources */,
+				4D17D074D95832B01BE5CF1D /* ExercisePicker.swift in Sources */,
+				7D9C03C2294862377A491C9B /* FormCheckPreprocessor.swift in Sources */,
+				731D75C3D214ED04FD72C3CB /* GainsdayApp.swift in Sources */,
+				B1020F39123145182C318ECF /* HealthKitInfoView.swift in Sources */,
+				312A10205FEA12EFD2B384FD /* HealthKitService.swift in Sources */,
+				F10B8AD2E965E439E6451791 /* HistoryView.swift in Sources */,
+				2C09B117C154DF9523AEBDEC /* Models.swift in Sources */,
+				4D28DDCFE40F8E4420905487 /* OnboardingView.swift in Sources */,
+				A6FB2D580F1FCF547F53BA9C /* OverloadEngine.swift in Sources */,
+				9A76490080C3C26ECB4E5A73 /* PaywallView.swift in Sources */,
+				F46084CC0993FBC7BE2753BD /* PhotoAligner.swift in Sources */,
+				2C8DF605EB133081B3AE1635 /* PhotoTimelineView.swift in Sources */,
+				A20608B098A2968CBC9AA87A /* PlansView.swift in Sources */,
+				F516A04A8C9C9FE2049ED5E7 /* PlateCalculator.swift in Sources */,
+				EC58A45B0BE636F2949FAC68 /* ProgressHomeView.swift in Sources */,
+				E19E5377433BFFDEC54C364D /* PurchaseManager.swift in Sources */,
+				0E867C5B6FBDA18C29766D47 /* QuotaStore.swift in Sources */,
+				293D702B8F92867AF66FF48E /* RootTabView.swift in Sources */,
+				AAC2321E58F8CA8A6B01FF00 /* SettingsView.swift in Sources */,
+				9A97B172E3EF0122F1DEF255 /* SnapshotStore.swift in Sources */,
+				9187D121BF6CF65F74B516D4 /* Theme.swift in Sources */,
+				B36FC8C68FDFE17A5FFA6B7A /* TodayView.swift in Sources */,
+				713AC7F6E33B36C12220C524 /* TodayViewModel.swift in Sources */,
+				10E518AEB6647A1B621C712E /* WatchSyncService.swift in Sources */,
+				F118D9E0147736147E2D9413 /* WeeklyRecapScheduler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31C923237AE056327456E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3D52CF9F5C7F99EE319141 /* GainsdayWatch */;
+			targetProxy = 1861930CF71BE6B0072A6741 /* PBXContainerItemProxy */;
+		};
+		DBA8F30ED3B73B50E0E9877E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D632078D4A7CC2508B7DD60 /* GainsdayWidgets */;
+			targetProxy = 87D75F33016BC74E18DB2B65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E9A26727F31A220123BCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		26F23D22FA2372E030F8C2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		82F7A1C9C7537107EDDE0DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gainsday/Gainsday.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Gainsday;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gainsday uses the camera to capture a photo of your lift so the AI Form Coach can analyze your posture.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Gainsday reads nothing from Health. It only writes your finished strength workouts to Apple Health when you enable sync.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Gainsday saves each finished workout to Apple Health as a Traditional Strength Training workout when sync is enabled.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					FoundationModels,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Gainsday;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A870923E11086016715E2480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GainsdayWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gainsday;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.zzoutuo.Gainsday;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Gainsday.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		B8EA67995E5ACD409C1392FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GainsdayWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gainsday;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.zzoutuo.Gainsday;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Gainsday.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		C0FD6A1D4A0FC089D509DCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gainsday/Gainsday.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Gainsday;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gainsday uses the camera to capture a photo of your lift so the AI Form Coach can analyze your posture.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Gainsday reads nothing from Health. It only writes your finished strength workouts to Apple Health when you enable sync.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Gainsday saves each finished workout to Apple Health as a Traditional Strength Training workout when sync is enabled.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					FoundationModels,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Gainsday;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C889EC3D7D0F2F0158ABA390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GainsdayWidgets/GainsdayWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GainsdayWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Gainsday.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F652A62CB4AEA2839B363DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GainsdayWidgets/GainsdayWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GainsdayWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.Gainsday.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEDECD3B0ECE00DFC71D42B /* Build configuration list for PBXNativeTarget "GainsdayWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C889EC3D7D0F2F0158ABA390 /* Debug */,
+				F652A62CB4AEA2839B363DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2308B3F408E8D52A0A233F91 /* Build configuration list for PBXNativeTarget "Gainsday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F7A1C9C7537107EDDE0DF0 /* Debug */,
+				C0FD6A1D4A0FC089D509DCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F4498292339A8B3660217EF /* Build configuration list for PBXNativeTarget "GainsdayWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A870923E11086016715E2480 /* Debug */,
+				B8EA67995E5ACD409C1392FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D2E2F79EF966B89D42CACFD /* Build configuration list for PBXProject "Gainsday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E9A26727F31A220123BCA2 /* Debug */,
+				26F23D22FA2372E030F8C2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C301D04F142434333A3E01BF /* Project object */;
+}
